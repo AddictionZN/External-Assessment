@@ -13,116 +13,81 @@ Thumbs.db
 *.swp
 *.swo
 
-# Build output
-dist/
-build/
-
-# Coverage reports
-coverage/
-
 # Environment variables
 .env
 .env.*
 
 # ---------------------
-# Python
+# .NET / C#
 # ---------------------
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
 
-# C extensions
-*.so
+# Visual Studio cache/options directory
+.vs/
 
-# Distribution / packaging
-.Python
-env/
-venv/
-ENV/
-build/
-develop-eggs/
-dist/
-eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-*.egg-info/
-.installed.cfg
-*.egg
-*.manifest
-*.spec
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
 
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
+# NuGet Packages
+*.nupkg
+# NuGet Symbol Packages
+*.snupkg
+# The packages folder can be ignored because of Package Restore
+**/[Pp]ackages/*
+# except build/, which is used as an MSBuild target.
+!**/[Pp]ackages/build/
 
-# Unit test / coverage results
-.coverage
-htmlcov/
-.tox/
-nosetests.xml
-coverage.xml
-*.cover
-.hypothesis/
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
 
-# PyBuilder
-target/
+# .NET Core
+*.runtimeconfig.json
+*.runtimeconfig.dev.json
 
-# Pyre type checker
-.pyre/
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
 
-# mypy
-.mypy_cache/
-
-# Pylint reports
-pylint-report.txt
-
-# ---------------------
-# React / Node.js
-# ---------------------
-# Dependencies
-node_modules/
-
-# Production build
-build/
-*.cache
-
-# Yarn / npm lock files (only ignore the one you are not using)
-# If you use npm, you might keep package-lock.json
-# If you use yarn, you might keep yarn.lock
-# For a monorepo or certain CI flows, you might commit both.
-# package-lock.json
-# yarn.lock
-
-# Testing / Coverage
-jest-cache/
-jest-output/
-
-# Next.js
-.next/
-out/
-
-# Parcel
-.cache/
-
-# Others (e.g., Gatsby)
-.cache/
-public/
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
+*.sap
 
 # ---------------------
 # Editor / IDE Files
 # ---------------------
-.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
 .idea/
 *.iml
 *.suo
 *.ntvs*
 *.njsproj
-*.sln
-*.user
 *.sw?
 
 # Mac ._ files
